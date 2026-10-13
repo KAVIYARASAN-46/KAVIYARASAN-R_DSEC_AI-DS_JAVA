@@ -1,0 +1,48 @@
+import java.util.Scanner;
+public class Main{
+    public static void main(String[] args ) {
+        Scanner sc = new Scanner(System.in);
+        int a = sc.nextInt();
+        int b = sc.nextInt();
+        int c = sc.nextInt();
+        int largest = (a>=b && a>=c) ? a:
+                    (b>=a && b>=c) ? b:c;
+        System.out.println(largest);
+    }
+}
+
+
+2.AGE ELLIGIBLE
+
+import java.util.Scanner;
+public class Main{
+    public static void main(String[] args ) {
+        Scanner sc = new Scanner(System.in);
+        int age = sc.nextInt();
+        String result = (age >= 18) ? "elligible" : "not elligible";
+        System.out.println(result);
+        sc.close();
+    }
+}
+
+3.POSIOVE OR NEGATIVE 
+
+
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int a = sc.nextInt();
+        int b = sc.nextInt();
+        String result1 = (a >= 0) ? "positive" : "negative";
+        String result2 = (b >= 0) ? "positive" : "negative";
+        System.out.println(result1);
+        System.out.println(result2);
+
+        sc.close();
+    }
+}
+
+
+
